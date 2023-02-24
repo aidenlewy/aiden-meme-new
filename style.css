@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Top left text */
+.setup {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+
+/* Bottom right text */
+.credit {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-family: 'Tilt Prism', cursive;
+  color: yellow;
+}
+
+/* Centered text */
+.punchline {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Tilt Prism', cursive;
+  font-family: 'Tilt Warp', cursive;
+  color: black;
+}
